@@ -137,8 +137,8 @@ else:
 #                         max_action=env.action_space.high[0], beta_schedule='linear', n_timesteps=100)
 
 
-vae = VAE(dim_state=dim_state, dim_action=dim_action,
-          latent_dim=dim_action*2, max_action=env.action_space.high[0])
+# vae = VAE(dim_state=dim_state, dim_action=dim_action,
+#           latent_dim=dim_action*2, max_action=env.action_space.high[0])
 
 vae_diffusion = Diffusion_BC(state_dim=dim_state, action_dim=dim_action,  device=device, discount=0.99,
                              max_action=env.action_space.high[0], beta_schedule='linear', n_timesteps=100, tau=0.005)
