@@ -194,7 +194,7 @@ if args.eval:
         folder=name_logger_folder,
         name=name_logger) if save_eval_results else None
 
-    agent = GBDAC(env, policy, critic, target_policy, target_critic,
+    agent = UDAC(env, policy, critic, target_policy, target_critic,
                   hyper_params={}, dataset=None, eval=True, logger=logger,
                   vae=vae_diffusion, render=render_eval)
 
