@@ -28,7 +28,7 @@ class UDAC(AbstractAgent):
         super().__init__()
 
         self.policy = policy
-        self.vae = vae
+        self.vae = vae  # diffusion model or vae here
         self.env = env
         self.tb = tb
         self.eval = eval
