@@ -40,4 +40,9 @@ where 'name of environment' can be:
 * hopper-expert
 
 
+## Acknowledgement
+This code is based on the several existing repos:
+O-RAAC: https://github.com/nuria95/O-RAAC
+Diffusion: https://github.com/openai/improved-diffusion and https://github.com/openai/guided-diffusion
+
 
