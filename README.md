@@ -1,5 +1,5 @@
 # UDAC
-Uncertainty-aware Distributional Offline Reinforcement Learning
+Diffusion Policies for Risk-Averse Behavior Modeling in Offline Reinforcement Learning
 
 ## Installation
 
